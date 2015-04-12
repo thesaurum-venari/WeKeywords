@@ -27,14 +27,14 @@ class UserTableSeeder extends Seeder
 		DB::table('users')->delete();
 
 		User::create([
-			'username'	=> 'superuser',
+			'name'		=> 'Super User',
 			'password'	=> Hash::make('superuser'),
 			'email'		=> 'superuser@sudo.net',
 			'role'		=> 'su'
 		]);
 
 		User::create([
-			'username'	=> 'editor',
+			'name'		=> 'Normal Editor',
 			'password'	=> Hash::make('editor'),
 			'email'		=> 'editor@sudo.net',
 			'role'		=> 'editor'

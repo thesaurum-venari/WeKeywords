@@ -12,7 +12,7 @@ class CreateArticleKeywordsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::table('article_keywords', function(Blueprint $table)
+		Schema::create('article_keywords', function(Blueprint $table)
 		{
 			$table->increments('id'); //entry id
 			$table->integer('article_id');

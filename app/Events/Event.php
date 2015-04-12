@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace WeKeywords\Events;
 
 abstract class Event {
 

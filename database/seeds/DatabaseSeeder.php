@@ -35,7 +35,7 @@ class UserTableSeeder extends Seeder
 
 		User::create([
 			'name'		=> 'Normal Editor',
-			'password'	=> Hash::make('editor'),
+			'password'	=> bcrypt('editor'),
 			'email'		=> 'editor@sudo.net',
 			'role'		=> 'editor'
 		]);

@@ -1,0 +1,24 @@
+{
+  "name": "WeKeywords",
+  "version": "0.0.0",
+  "homepage": "https://github.com/thesaurum-venari/WeKeywords",
+  "authors": [
+    "balliuera"
+  ],
+  "description": "Provides and vizualises datasets for the user in a readable an understandable way",
+  "keywords": [
+    "wekeyword",
+    "keyword",
+    "data",
+    "hunting",
+    "mining"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
